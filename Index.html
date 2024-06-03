@@ -1,30 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- Font Awesome CDN -->
     <title>AHD Hair Studio</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about-us">About Us</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#book-appointment">Book Appointment</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact-us">Contact Us</a></li>
-            </ul>
-        </nav>
+        <div class="top-bar">
+            <div class="logo">
+                <img src="Logo.png" alt="AHD Hair Studio Logo">
+            </div>
+            <nav>
+                <ul class="nav-center">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about-us">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#contact-us">CONTACT</a></li>
+                </ul>
+                <ul class="nav-right">
+                    <li><a href="#book-appointment">BOOK NOW</a></li>
+                    <li><a href="#login"><i class="fas fa-sign-in-alt"></i></a></li> <!-- Font Awesome Sign-In Icon -->
+                </ul>
+            </nav>
+        </div>
+        <div class="welcome-message">
+            <a href="#home"><h1>Welcome to AHD Hair Studio</h1></a>
+            <div class="form-container">
+                <div class="login-form" id="login">
+                    <input type="text" placeholder="Username">
+                    <input type="password" placeholder="Password">
+                    <button type="submit">Login</button>
+                    <div class="social-login">
+                        <br>
+                        <p>Or Login with:</p>
+                        <a href="#google-login" class="social-logog"><img src="google_logo.png" alt="Google Login"></a>
+                        <a href="#facebook-login" class="social-logof"><img src="facebook_logo.png" alt="Facebook Login"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
+</body>
+</html>
 
-    <footer>
-        <!-- Your footer content here -->
-    </footer>
 </body>
 </html>
